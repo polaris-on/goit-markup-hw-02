@@ -11,13 +11,13 @@ a {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
 
     color: #434455;
+    background-color: #ffffff;
 }
 
 /* font-family: 'Raleway', sans-serif; */
@@ -42,9 +42,9 @@ ul {
 .logo {
     margin-right: 76px;
 
-    color: #2E2F42;
+    color: #4d5ae5;
 
-    font-family: "Railway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 117%;
@@ -52,7 +52,7 @@ ul {
     text-transform: uppercase;
 }
 .logo span {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 .menu {
     display: flex;
@@ -64,28 +64,27 @@ ul {
 }
 .menu-item {
     margin-right: 40px;
+}
+.menu-link{
     color: #2E2F42;
 }
-.menu-item:hover,
-.menu-item:active {
+.menu-link:hover,
+.menu-link:active {
     color: #404BBF;
+}
+.header-contacts {
+    font-style: normal;
 }
 .header-contacts ul {
     display: flex;
-
-    font-style: normal;
     line-height: 150%;
     letter-spacing: 0.32px; 
 }
-.header-mail {
+.header-contact {
     margin-right: 40px;
 }
-.header-phone {
-}
-.header-mail:hover,
-.header-phone:hover,
-.header-mail:active,
-.header-phone:active {
+.header-contact:hover,
+.header-contact:hover {
     color: #404BBF;
 }
 .hero {
@@ -94,6 +93,7 @@ ul {
     justify-content: center;
     align-items: center;
     
+    text-align: center;
     min-height: 80vh;
     background-color: #2E2F42;
 }
@@ -115,8 +115,13 @@ ul {
     cursor: pointer;
 
     color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
     background-color: #404BBF;
 }
 .advantages {
@@ -272,8 +277,8 @@ ul {
     display: inline-block;
     margin-bottom: 18px;
     
-    color: var(--CLOUD, #F4F4FD);
-    font-family: Raleway;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 117%;
@@ -281,7 +286,7 @@ ul {
     text-transform: uppercase;
 }
 .footer-logo span {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 .footer-text {
     width: 264px;
