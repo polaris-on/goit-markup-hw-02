@@ -69,7 +69,7 @@ ul {
     color: #2E2F42;
 }
 .menu-link:hover,
-.menu-link:active {
+.menu-link:focus {
     color: #404BBF;
 }
 .header-contacts {
@@ -84,7 +84,7 @@ ul {
     margin-right: 40px;
 }
 .header-contact:hover,
-.header-contact:hover {
+.header-contact:focus {
     color: #404BBF;
 }
 .hero {
@@ -104,7 +104,9 @@ ul {
     font-size: 56px;
     font-weight: 700;
     line-height: 107.143%;
-    letter-spacing: 1.12px; 
+    letter-spacing: 1.12px;
+
+    color: #ffffff;
 }
 .hero-button {
     padding: 16px 32px;
@@ -285,8 +287,8 @@ ul {
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-.footer-logo span {
-    color: #2e2f42;
+.footer-logo-span {
+    color: #f4f4fd;
 }
 .footer-text {
     width: 264px;
